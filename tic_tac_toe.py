@@ -73,4 +73,11 @@ def tictactoe (board):
     
 print (tictactoe(board))
 
+#To make the PC move smarter and make the game harder I think it should be:
+#(for the explanation I'll sey player is x and PC is o)
+#If xx or x-x in board put o next to x or between two x's to block the win
+#elif put o next to an existing oo or o
+#In other words the PC should first block a win and then try to make ooo, 
+# if both goals possible in one move even better.
+
 
